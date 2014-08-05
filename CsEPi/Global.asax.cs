@@ -7,7 +7,7 @@ using System.Web.Routing;
 
 namespace CsEPi
 {
-    public class MvcApplication : System.Web.HttpApplication
+    public class MvcApplication : EPiServer.Global
     {
         protected void Application_Start()
         {
